@@ -5,8 +5,10 @@ import Clock from './Clock';
 function App() {
   return (
     <div className='App'>
-      <Greet />
-      <Clock />
+      <div className='App-header'>
+        <Greet />
+        <Clock />
+      </div>
     </div>
   );
 }
