@@ -1,0 +1,63 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+
+.app-container {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.fb-blue {
+  color: #2677f2;
+}
+
+.fb-green {
+  color: #50a429;
+}
+
+.bg-fb-blue {
+  background-color: #2677f2;
+}
+
+.bg-fb-green {
+  background-color: #50a429;
+}
+
+.sign-in-card {
+  margin: 31% auto 20px auto;
+  border-radius: 10px;
+}
+
+input.form-control {
+  font-size: 1em;
+  padding: 1.5em;
+}
+
+.hero-container {
+  width: 75%;
+  text-align: left;
+  margin-top: 35%;
+}
+
+.hero-container h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.hero-container h4 {
+  font-size: 1.7em;
+}
+
+.celebrity-prompt {
+  margin-top: 0;
+  font-size: 0.9em;
+  color: black;
+}
+
+.celebrity-prompt a {
+  color: black;
+}
