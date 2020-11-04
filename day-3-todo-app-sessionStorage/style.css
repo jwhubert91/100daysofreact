@@ -1,0 +1,14 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+.app-container {
+  background-color: gainsboro;
+  min-height: 100vh;
+}
