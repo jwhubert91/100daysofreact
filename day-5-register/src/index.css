@@ -1,0 +1,125 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fefefe;
+  font-family: sans-serif;
+}
+
+.form-container {
+  background-color: white;
+  margin: 5% auto; /* 15% from the top and centered */
+  padding: 10px 20px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  width: 400px; /* Could be more or less, depending on screen size */
+  box-shadow: 5px 10px gainsboro;
+}
+
+.form-header {
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 10px;
+}
+
+.form-header h1 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.form-header p {
+  color: gray;
+  margin: 5px 0 0 0;
+  font-size: 0.9em;
+}
+
+.form-body {
+  margin: 5px auto;
+}
+
+.row {
+  padding: 5px 0;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.col-50 {
+  width: 49%;
+}
+
+.col-33 {
+  width: 33%;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+}
+
+.next-col {
+  margin-left: 2%;
+}
+
+input {
+  padding: 5px 10px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  background-color: rgba(220, 220, 220, 0.3);
+  width: 100%;
+}
+
+button.register-button {
+  padding: 8px 45px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  margin: 0 auto;
+}
+
+button.register-button:hover {
+  cursor: pointer;
+}
+
+.label-row {
+  width: 100%;
+}
+
+.label-row label {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  color: gray;
+}
+
+.inputs-row {
+  width: 100%;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  font-size: 15px;
+  border: 1px solid gainsboro;
+}
+
+.gender-choice {
+  font-size: 15px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  width: 31%;
+  margin: 0 3px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.gender-choice input {
+  margin-top: 5px;
+}
+
+p.terms-and-conditions {
+  font-size: 11px;
+  color: gray;
+  margin: 10px auto;
+  padding: 0 5px;
+}
