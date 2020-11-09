@@ -1,0 +1,103 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Header CSS */
+.header-container {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: gainsboro;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+  line-height: 0.9em;
+}
+
+.header-container img {
+  height: 1.3em;
+  margin-top: 3px;
+}
+
+.header-attribution i {
+  font-size: 1.2em;
+  margin-top: 3px;
+  color: black;
+}
+
+.header-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.header-container li {
+  display: inline;
+}
+
+.header-container .header-attribution {
+  float: right;
+}
+
+.header-container .header-attribution {
+  margin-left: 10px;
+}
+
+.twitter-link i:hover {
+  color: #1da1f2;
+}
+
+.github-link i:hover {
+  color: purple;
+}
+
+.header-logo-title {
+  font-weight: bold;
+  margin: 0 0 0 10px;
+  padding: 0;
+  top: 8px;
+  position: absolute;
+}
+
+/* Input form CSS */
+.inputFormContainer {
+  width: 60%;
+  min-width: 450px;
+  margin: 50px auto;
+  box-shadow: 10px 10px gray;
+  border-radius: 15px;
+  padding: 0 20px;
+}
+
+.inputFormText {
+  line-height: 37px;
+  letter-spacing: 0.5px;
+  font-size: 19px;
+}
+
+.inputFormText input {
+  border: none;
+  background-color: rgba(220, 220, 220, 0.2);
+  padding: 6px;
+  font-size: 16px;
+  border-radius: 0px;
+}
+
+.inputFormText input:focus {
+  outline: none;
+  border-bottom: 2px solid orangered;
+}
+
+.inputFormContainer label {
+  margin: 0 auto;
+}
+
+div.button-container {
+  width: 100%;
+}
+
+.create-bizcard-button {
+  margin: 5px auto 10px auto;
+}
