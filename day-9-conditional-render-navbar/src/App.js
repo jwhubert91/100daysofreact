@@ -6,7 +6,7 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      activePage: 3,
+      activePage: 1,
     };
     this.handlePageSelect = this.handlePageSelect.bind(this);
   }
