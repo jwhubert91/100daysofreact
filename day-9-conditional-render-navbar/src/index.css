@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 5vh;
+  background-color: gainsboro;
+}
+
+.nav-item {
+  float: left;
+  padding: 6px 20px;
+  border: 1px solid gainsboro;
+}
+
+.nav-item:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+.active {
+  background-color: gray;
+}
+
+.page-container {
+  height: 95vh;
+  background-color: white;
+  text-align: center;
+  clear: both;
+}
+
+.page-background {
+  width: 100%;
+  height: 100%;
+}
+
+h1.page-header {
+  margin: 0;
+  color: white;
+  font-size: 70px;
+}
