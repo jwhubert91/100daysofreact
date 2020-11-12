@@ -190,6 +190,7 @@ input[type='number'] {
 .amount-container .dollars-container {
   border: 1px solid navy;
   width: 86%;
+  height: 17px;
   display: inline-block;
   padding: 1px;
   font-size: 0.9em;
@@ -217,6 +218,18 @@ input[type='number'] {
 .memo-container span {
   font-weight: bold;
   margin-right: 5px;
+}
+
+.buttons-container button {
+  padding: 10px 50px;
+  font-size: 1.1em;
+  background-color: greenyellow;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+div.buttons-container {
+  text-align: center;
 }
 
 @media only screen and (max-width: 640px) {

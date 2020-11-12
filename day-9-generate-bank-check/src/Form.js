@@ -185,7 +185,7 @@ export default class Form extends Component {
             </div>
             <div className='field-row'>
               <div className='buttons-container'>
-                <button>Transmit Check</button>
+                <button>Submit Check</button>
               </div>
             </div>
           </div>
