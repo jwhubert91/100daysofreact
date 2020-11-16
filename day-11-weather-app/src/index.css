@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./img/bright-sky.jpg');
+  background-size: cover;
+  overflow: hidden;
+}
+
+/* app container */
+.App {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+/* search container */
+.search-container {
+  width: 100%;
+  height: 13vh;
+  text-align: center;
+}
+
+.search-container div.search {
+  margin: 20px auto;
+}
+
+.search-container input {
+  width: 50%;
+  font-size: 17px;
+  padding: 7px 20px;
+  border-radius: 12px;
+  border: 1px solid gray;
+}
+
+.search-container input:focus {
+  outline: none;
+}
+
+/* today's forecast */
+div.main-container {
+  position: relative;
+}
+
+div.today-container {
+  width: 66%;
+  height: 45vh;
+  margin: 0px auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 4px solid rgba(255, 255, 255, 0.4);
+  padding: 20px 30px;
+  border-radius: 20px;
+  box-shadow: 0 30px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.image-container {
+  text-align: center;
+}
+
+div.info-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100%;
+}
+
+/* error message */
+.error-container {
+  height: 50px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.error-text {
+  background-color: rgb(42, 40, 49);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.forecast-container {
+  width: 66%;
+  height: 100px;
+  margin: 0px 17%;
+  z-index: 5;
+  position: absolute;
+  bottom: -50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* individual day forecast styling */
+.forecast-container .forecast-day {
+  height: 100%;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 4px solid rgba(255, 255, 255, 0.6);
+  border-radius: 30px;
+  text-align: center;
+}
+
+.forecast-day > p.weekday {
+  font-size: 0.9em;
+  margin: 8px auto 0 auto;
+  text-align: center;
+}
+
+.forecast-day img {
+  margin: 0;
+  padding: 0;
+}
+
+.forecast-day > p.daily-temp {
+  text-align: center;
+  margin: 0;
+}

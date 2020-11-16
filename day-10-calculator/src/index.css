@@ -1,0 +1,98 @@
+html {
+  height: 100vh;
+  background: rgb(237, 127, 112);
+  background: linear-gradient(
+    90deg,
+    rgba(237, 127, 112, 1) 0%,
+    rgba(240, 159, 114, 1) 100%
+  );
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.calculator-container {
+  height: 500px;
+  width: 350px;
+  background-color: #343a4a;
+  border-radius: 15px;
+  margin: 50px auto;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 30px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.output-container {
+  width: 100%;
+  height: 30%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 3em;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.output-container span {
+  align-self: flex-end;
+  text-align: right;
+}
+
+.inputs-container {
+  height: 70%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f1eeef;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.inputs-container button {
+  border-radius: 0;
+  border: 1px solid rgba(73, 73, 73, 0.1);
+}
+
+.inputs-container button:hover {
+  cursor: pointer;
+}
+
+.btn-gray {
+  background-color: gainsboro;
+}
+
+.btn-orange {
+  background-color: #f09f72;
+}
+
+.btn-redorange {
+  background-color: #ed7f70;
+}
+
+.inputs-container > .btn-bottom-left {
+  border-bottom-left-radius: 15px;
+}
+
+.inputs-container > .btn-bottom-right {
+  border-bottom-right-radius: 15px;
+}
