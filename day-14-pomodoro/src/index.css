@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.app-container {
+  min-height: 100vh;
+  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: #8fbfe0;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+  font-size: 3rem;
+}
+
+.timer-container {
+  margin-top: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-container ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.timer-container ul li {
+  background: #7c77b9;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0.5rem;
+  color: #8fbfe0;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.timer-container ul li span {
+  font-size: 2rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100vw;
+}
