@@ -21,8 +21,8 @@ body {
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 100vw;
+  min-height: 100vw;
   height: 100vh;
   background-size: cover;
   overflow: hidden;
@@ -74,6 +74,21 @@ body {
     padding: 10px;
     font-size: 1rem;
     line-height: 1.8rem;
+  }
+  .generate-button {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-height: 500px) {
+  .quote-box {
+    width: 65%;
+    max-width: 600px;
+    padding: 5px;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+  }
+  .generate-button {
+    font-size: 1rem;
   }
 }
 
