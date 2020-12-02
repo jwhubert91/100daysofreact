@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.App {
+  margin: 10px;
+}
+
+.form-container {
+  width: 100%;
+  padding: 10px;
+}
+
+.prototype-element {
+  margin: 20px auto;
+  border: 2px solid black;
+  width: 200px;
+  text-align: center;
+  padding: 5px;
+}
+
+.prototype-element p {
+  margin: 5px;
+}
