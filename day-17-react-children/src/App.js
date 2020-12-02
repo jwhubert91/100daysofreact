@@ -1,6 +1,7 @@
 import React from 'react';
 import Form from './Form';
 import PrototypeElement from './PrototypeElement';
+import CreatedElContainer from './CreatedElContainer';
 
 class App extends React.Component {
   state = {
@@ -52,17 +53,21 @@ class App extends React.Component {
       <div className='App'>
         <h2>React Child Rearer App</h2>
         <div className='row mt-5'>
-          <div className='col-md-4'>
+          <div className='col-md-4 col-sm-6'>
             <Form
               handleChange={this.handleChange}
               handleSubmit={this.handleSubmit}
               proto={this.state}
             />
           </div>
-          <div className='col-md-4 prototype-container'>
+          <div className='col-md-4 col-sm-6 prototype-container'>
             <PrototypeElement shape={this.state} />
           </div>
-          <div className='col-md-4'>{createdComponents.reverse()}</div>
+          <div className='col-md-4 third-col'>
+            <CreatedElContainer>
+              {createdComponents.reverse()}
+            </CreatedElContainer>
+          </div>
         </div>
       </div>
     );

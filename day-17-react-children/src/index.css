@@ -1,11 +1,32 @@
+html {
+  overflow: none;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
+  padding: 0;
   font-family: sans-serif;
   font-size: 12px;
+  overflow: none;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h2 {
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
 }
 
 .App {
-  margin: 10px;
+  margin: 0;
+  padding: 0;
+  background-color: #f0ead6;
+  min-height: 100vh;
 }
 
 .form-container {
@@ -23,4 +44,14 @@ body {
 
 .prototype-element p {
   margin: 5px;
+}
+
+.components-container-el {
+  height: 500px;
+  overflow-y: scroll;
+  margin: 0 auto;
+  background-image: url('./cosmos-background.jpg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
 }
