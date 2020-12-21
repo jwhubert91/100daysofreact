@@ -1,0 +1,27 @@
+nav.navbar {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav.navbar .nav-items-right {
+  display: flex;
+}
+
+nav.navbar li {
+  font-size: 1.4rem;
+  height: 1.4rem;
+  list-style: none;
+  color: gainsboro;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+nav.navbar img {
+  height: 1.4rem;
+  margin-top: 0;
+  padding: 0;
+}
