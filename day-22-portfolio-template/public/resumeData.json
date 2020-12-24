@@ -1,0 +1,183 @@
+{
+  "main": {
+    "name":"James W. Hubert",
+    "description":"I am a front-end web developer skilled in html, css, javascript, bootstrap, react, firebase, node and mongodb. Please reach out below to discuss your next project",
+    "image":"james-custom/canoe_profile.jpg",
+    "bio":"I am a Front End Developer in New York City with an interest in B2C, retail, small business B2B, and mobile tech. My previous roles in SaaS sales at some of Silicon Valley's fastest growing startups sparked my interest in product and software engineering. This led me to teach myself web development and attend App Academy's full-stack coding bootcamp.",
+    "contactmessage":"Please reach out via the contact form below with development requests, price inquiries, recruiter messages and general questions. I will respond as soon as possible.",
+    "email": "jwhubert91@gmail.com",
+    "phone": "206-861-4102",
+    "github":"https://github.com/jwhubert91",
+    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "address":{
+      "street":"507 Central Ave, 1L",
+      "city":"Brooklyn",
+      "state":"NY",
+      "zip": "11221"
+    },
+    "website": "https://jameshubert.me/",
+    "resumedownload":"assets/james_hubert_dec2020_resume.pdf",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/james.hubert.16",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com/jwhubert91",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/jameswhubert",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/james__hubert",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://www.github.com/jwhubert91",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here is a small collection of my most relevant skills:",
+    "education":[
+			{
+        "school":"App Academy",
+        "degree":"Software Engineering Apprentice",
+        "graduated":"Winter 2019-2020",
+        "description":"Student at rigorous 16-week coding bootcamp with less than 3% acceptance rate."
+      },
+      {
+        "school":"University of Washington",
+        "degree":"Bachelor of Arts",
+        "graduated":"June 2014",
+        "description":"Studied Philosophy and wrote my final concentration paper on Law and Economics. Also assisted in research into poverty and decision-making."
+      },
+      {
+				"school":"Garfield High School",
+				"degree":"High School Diploma",
+        "graduated":"June 2009",
+        "description":"Survived and graduated from Seattle's finest preparatory academy."
+      }
+    ],
+    "work":[
+      {
+        "company":"Tunnel 7",
+        "title":"Web Developer",
+        "years":"December 2020 - Present",
+        "description":"Built and maintained websites primarily in Expression Engine. Worked on a variety of projects and assisted in web development, content writing, photo editing and other client-oriented improvements."
+      },
+      {
+        "company":"RK Software Inc",
+        "title":"Front-end Developer Intern",
+        "years":"June 2020 - December 2020",
+        "description":"Created front-ends in HTML5, CSS3, Javascript ES6+, Bootstrap, Datatables, jQuery, MS SQL Server, and other tools as needed in the ASP.NET framework and in Java JSP pages. Prototyped in Balsamiq and inVision."
+      }
+    ],
+    "skills-template":[
+      {
+        "name":"Python",
+        "level":"60%"
+      },
+      {
+        "name":"VueJs",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"PHP",
+        "level":"80%"
+      },
+      {
+        "name":"Swift",
+        "level":"50%"
+      },
+      {
+        "name":"JAVA",
+        "level":"80%"
+      }
+		],
+		"skills":[
+			{
+				"name": "Javascript",
+				"icon": "devicon-javascript-plain"
+			},
+			{
+				"name": "HTML",
+				"icon": "devicon-html5-plain"
+			},
+			{
+				"name": "CSS",
+				"icon": "devicon-css3-plain"
+			},
+			{
+				"name": "React",
+				"icon": "devicon-react-original"
+			},
+			{
+				"name": "Node",
+				"icon": "devicon-nodejs-plain-wordmark"
+			},
+			{
+				"name": "MongoDB",
+				"icon": "devicon-mongodb-plain"
+			},
+			{
+				"name": "SQL",
+				"icon": "devicon-mysql-plain"
+			},
+			{
+				"name": "Bootstrap",
+				"icon": "devicon-bootstrap-plain"
+			}
+		]
+	},
+  "portfolio":{
+    "projects": [
+      {
+        "title":"TRVL",
+        "category":"Fully-responsive React travel website front page.",
+        "image":"trvl-responsive-react-site.png",
+        "url":"https://100-react-projects-day-20-first-full-website.netlify.app/"
+      },
+      {
+        "title":"NYC Comptroller Pitch Site",
+        "category":"A basic pitch website built for the Comptroller's office.",
+        "image":"nyc-comptroller-site.png",
+        "url":"https://nyc-comptroller-2020.netlify.app/"
+      },
+      {
+        "title":"React Meme Generator",
+        "category":"Meme generator.",
+        "image":"react-meme-generator.png",
+        "url":"https://100-react-projects-day-8-meme-generator.netlify.app/"
+      },
+      {
+        "title":"Collaborative Projects Co",
+        "category":"A pure html/css draft agency site for a Brooklyn web agency.",
+        "image":"colabnyc-screenshot.png",
+        "url":"https://www.colabnyc.com"
+      },
+      {
+        "title":"React Remembrall",
+        "category":"The world's only working Remembrall.",
+        "image":"remembrall.png",
+        "url":"https://100-react-projects-day-4-remembrall.netlify.app/"
+      }
+    ]
+  }
+}
