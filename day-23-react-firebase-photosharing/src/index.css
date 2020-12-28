@@ -55,6 +55,7 @@ label {
 label:hover {
   background: var(--primary);
   color: white;
+  cursor: pointer;
 }
 .output {
   height: 60px;

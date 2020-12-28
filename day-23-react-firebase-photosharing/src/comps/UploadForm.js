@@ -10,7 +10,11 @@ const UploadForm = () => {
   const changeHandler = (e) => {
     const selected = e.target.files[0];
     if (selected && types.includes(selected.type)) {
-      setFile(selected);
+      // setFile(selected);
+      setFile(null);
+      alert(
+        `Thanks for checking out my Instagram clone! Unforunately, we've had to stop accepting new uploads to ensure security of the application. Please check out my other work at https://www.dev.to/jwhubert91 for more projects!`
+      );
     } else {
       setFile(null);
       setError('Please select an image (png, jpg or jpeg) file type.');
