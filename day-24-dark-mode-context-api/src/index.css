@@ -1,0 +1,90 @@
+/* default (mostly) CRA css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Main {
+  text-align: center;
+}
+
+.Main-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Main-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Main-header {
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* new, custom css */
+nav {
+  min-height: 5vh;
+  border-bottom: 2px solid black;
+}
+
+nav > h2 {
+  padding: 10px 5px;
+  margin: 0;
+}
+
+nav .nav-title-1 {
+  font-size: 35px;
+  font-family: 'Brush Script MT';
+}
+
+/* dark theme */
+.dark-theme-bg {
+  background-color: #282c34;
+}
+
+.dark-theme-text {
+  color: white;
+}
+
+.dark-theme-link {
+  color: #61dafb;
+}
+
+/* light theme */
+.light-theme-bg {
+  background-color: #d7d3cb;
+}
+
+.light-theme-text {
+  color: black;
+}
+
+.light-theme-link {
+  color: #d43931;
+}
