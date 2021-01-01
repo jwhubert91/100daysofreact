@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.form-container {
+  max-width: 600px;
+}
+
+@media (min-width: 900px) {
+  .form-container {
+    width: 50%;
+    max-width: 1000px;
+  }
+}

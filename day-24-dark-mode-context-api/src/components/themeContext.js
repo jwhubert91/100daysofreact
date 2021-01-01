@@ -8,7 +8,6 @@ class ThemeContextProvider extends React.Component {
 
   toggleTheme = () => {
     this.setState((prevState) => {
-      console.log(`You changed the state FROM ${prevState.theme}!`);
       return {
         theme: prevState.theme === 'light' ? 'dark' : 'light',
       };
