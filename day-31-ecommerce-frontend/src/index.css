@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'TradeGothicMT';
+  src: url('./fonts/trade-gothic-lt-com-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TradeGothicMT-Bold';
+  src: url('./fonts/Trade-Gothic-LT-Com-Bold.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

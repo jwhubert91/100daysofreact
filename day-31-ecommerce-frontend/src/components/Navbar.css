@@ -1,0 +1,15 @@
+nav.navbar {
+  height: 70px;
+  width: 100%;
+  background-color: #e953bb;
+  color: black;
+  text-align: center;
+}
+
+nav.navbar span.navbar-header {
+  font-family: 'TradeGothicMT-Bold', 'Trebuchet MS', 'Lucida Sans Unicode',
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 70px;
+  font-size: 23px;
+  font-weight: bold;
+}
