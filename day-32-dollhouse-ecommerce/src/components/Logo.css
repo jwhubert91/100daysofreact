@@ -1,0 +1,12 @@
+span.logo-text {
+  background: linear-gradient(#f9f876 45%, #82f7d6 55%);
+  background: -webkit-linear-gradient(#f9f876 40%, #82f7d6 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'TradeGothicMT-Bold', 'Trebuchet MS', 'Lucida Sans Unicode',
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 70px;
+  font-size: 28px;
+  font-weight: bold;
+}

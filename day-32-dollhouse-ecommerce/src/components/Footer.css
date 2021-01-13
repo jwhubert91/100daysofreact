@@ -1,0 +1,13 @@
+footer {
+  width: 100%;
+  height: 150px;
+  background: #e953bb;
+  text-align: center;
+}
+
+.footer-links a {
+  font-size: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black;
+}

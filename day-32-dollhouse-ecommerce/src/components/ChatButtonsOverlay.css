@@ -1,0 +1,22 @@
+div.chat-buttons-overlay-container {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+a.whatsapp-order-button {
+  font-size: 34px;
+  color: black;
+  background-color: #65cd65;
+  padding: 5px 10px;
+  border-radius: 15px;
+  text-decoration: none;
+  border: 2px solid black;
+}
+
+a.whatsapp-order-button > i {
+  font-size: 38px;
+  color: white;
+}

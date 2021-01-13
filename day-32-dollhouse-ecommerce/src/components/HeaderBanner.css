@@ -1,0 +1,23 @@
+div.header-banner {
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  color: #e85bf9;
+  text-align: center;
+}
+
+/* original mint color: #82f7d6  */
+
+span.banner-text {
+  font-family: 'TradeGothicMT-Bold', 'Trebuchet MS', 'Lucida Sans Unicode',
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 70px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+@media (max-width: 350px) {
+  span.banner-text {
+    font-size: 12px;
+  }
+}
