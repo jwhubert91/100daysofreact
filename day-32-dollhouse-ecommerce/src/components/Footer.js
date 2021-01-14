@@ -10,7 +10,7 @@ function Footer() {
         <a href='https://www.instagram.com/dolces_dollhouse/'>
           <i className='fa fa-instagram'></i>
         </a>
-        <a href='https://wa.me/message/WQ6OFLCVIAZQI1'>
+        <a href='#app-container'>
           <i className='fa fa-whatsapp'></i>
         </a>
         {/* <a href=''>
