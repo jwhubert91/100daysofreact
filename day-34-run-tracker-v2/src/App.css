@@ -1,0 +1,16 @@
+body {
+  background-color: gainsboro;
+}
+
+.app-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+header > h1 {
+  margin: 5px 0;
+}
+
+code {
+  color: black;
+}
