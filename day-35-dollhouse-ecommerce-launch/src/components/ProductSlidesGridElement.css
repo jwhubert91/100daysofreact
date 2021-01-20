@@ -1,0 +1,44 @@
+.product-slideshow-container {
+  padding: 5px 0;
+}
+
+.each-slide > img {
+  position: relative;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 94vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.product-image-number-text {
+  background-color: transparent;
+  font-size: 1.5em;
+  font-family: Arial, sans-serif;
+  color: white;
+  z-index: 100;
+  bottom: 0;
+}
+
+span.product-title {
+  color: white;
+  position: absolute;
+  top: 3px;
+  padding-left: 5px;
+  z-index: 101;
+}
+
+span.product-price {
+  color: white;
+  position: absolute;
+  padding-left: 10px;
+  bottom: 5px;
+  z-index: 101;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}

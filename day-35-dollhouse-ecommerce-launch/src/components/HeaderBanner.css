@@ -1,0 +1,21 @@
+div.header-banner {
+  height: 70px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #e85bf9;
+  text-align: center;
+}
+
+span.banner-text {
+  font-family: 'TradeGothicMT-Bold', 'Trebuchet MS', 'Lucida Sans Unicode',
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 70px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+@media (max-width: 400px) {
+  span.banner-text {
+    font-size: 10px;
+  }
+}

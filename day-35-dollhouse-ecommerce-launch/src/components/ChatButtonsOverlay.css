@@ -1,0 +1,29 @@
+div.chat-buttons-overlay-container {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+a.whatsapp-order-button {
+  font-size: 30px;
+  font-family: Helvetica, sans-serif;
+  color: black;
+  background-color: #65cd65;
+  padding: 10px;
+  border-radius: 40px;
+  text-decoration: none;
+  box-shadow: 2px 5px 16px 0px #244b24, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+a.whatsapp-order-button:hover,
+a.whatsapp-order-button:focus {
+  box-shadow: inset -1px 3px 8px 5px #70f770, 2px 5px 16px 0px #244b24,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+a.whatsapp-order-button > i {
+  font-size: 38px;
+  color: white;
+}

@@ -1,0 +1,14 @@
+footer {
+  width: 100%;
+  height: 200px;
+  background: rgba(red, green, blue, 0.8);
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer-links a {
+  font-size: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black;
+}

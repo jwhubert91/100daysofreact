@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'TradeGothicMT';
+  src: url('./fonts/trade-gothic-lt-com-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TradeGothicMT-Bold';
+  src: url('./fonts/Trade-Gothic-LT-Com-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DirtyBrush';
+  src: url('./fonts/DirtyBrush-BZYV.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Toxia';
+  src: url('./fonts/Toxia-OwOA.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CandyCake';
+  src: url('./fonts/CandyCake-gxEyP.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MoonHand';
+  src: url('./fonts/MoonHand-PKoEr.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SelfDeceptionCursive';
+  src: url('./fonts/SelfDeceptionRegular-ALLWA.ttf') format('truetype');
+}
+
+/* @font-face {
+  font-family: 'Heaters';
+  src: url('./fonts/Heaters.otf') format('opentype');
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./images/mickey-cotton-candy-background.jpg);
+  background-repeat: repeat;
+}

@@ -1,0 +1,26 @@
+#app-container {
+  overflow-y: hidden;
+  width: 100vw;
+}
+
+.home-grid-container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-grid-header {
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.home-grid-header > h2 {
+  font-family: 'TradeGothicMT-Bold';
+  font-size: 2em;
+  margin: 0;
+  padding: 10px;
+}
+
+.home-grid-header > p {
+  margin: 0;
+  padding: 10px 0 0 0;
+}

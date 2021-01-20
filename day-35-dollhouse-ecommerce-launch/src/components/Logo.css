@@ -1,0 +1,7 @@
+span.logo-text {
+  line-height: 70px;
+}
+
+span.logo-text > img {
+  height: 60px;
+}

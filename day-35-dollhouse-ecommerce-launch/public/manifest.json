@@ -1,0 +1,15 @@
+{
+	"short_name": "Weather App",
+	"name": "Weather App PWA",
+	"icons": [
+		{
+			"src": "/images/dolce-unicorn-icon-large.png",
+			"type": "image/png",
+			"sizes": "235x235"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#e85bf9",
+	"background_color": "#ffffff"
+}

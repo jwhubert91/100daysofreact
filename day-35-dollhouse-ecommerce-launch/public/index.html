@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./images/dolce-unicorn-icon-large.png" width='32px' type='img/png' />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#e85bf9" />
+    <meta
+      name="description"
+      content="Dolce's Dollhouse - Pelucas y Mas de Estados Unidos a Mexico"
+    />
+    <link rel="apple-touch-icon" href="./images/dolce-unicorn-icon-large.png" />
+		<link rel="manifest" href="./manifest.json" />
+		<!-- fontawesome -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Dolce's Dollhouse | Pelucas Mexico</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+		<div id="root"></div>
+		<script>
+			if ('serviceWorker' in navigator) {
+				window.addEventListener('load', () => {
+					navigator.serviceWorker.register('./serviceworker.js')
+						.then((reg) => console.log('Success: ',reg.scope))
+						.catch((err) => console.error('Failure: ', err))
+				})
+			}
+		</script>
+  </body>
+</html>
