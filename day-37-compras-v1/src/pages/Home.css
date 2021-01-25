@@ -1,0 +1,27 @@
+div.homepage-container {
+  background-image: url('../images/different-vegetables-textile-bag-beige.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  width: 100%;
+  z-index: 50;
+}
+
+div.homepage-overlay {
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 51;
+}
+
+div.home-elements-container {
+  min-height: 100vh;
+}
+
+.hero-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

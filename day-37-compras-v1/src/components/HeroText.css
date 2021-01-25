@@ -1,0 +1,23 @@
+div.hero-text-container {
+  color: #f8d04c;
+  padding-top: 20vh;
+}
+
+h1.hero-text-main {
+  font-size: 4em;
+}
+
+@media only screen and (max-width: 780px) {
+  .hero-text-prompts h2 {
+    font-size: 1.75em;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .hero-text-prompts h2 {
+    font-size: 1.5em;
+  }
+  h1.hero-text-main {
+    font-size: 3em;
+  }
+}
