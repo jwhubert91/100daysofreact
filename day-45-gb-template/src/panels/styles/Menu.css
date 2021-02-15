@@ -1,0 +1,49 @@
+.menu-panel-header {
+  text-align: center;
+}
+
+div.menu-body {
+  padding: 0 5vw 20px 5vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+}
+
+h5.menu-subsection-header {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+div.menu-item {
+  margin: 12px 0;
+}
+
+.menu-item-top {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.menu-body span.menu-item-price {
+  font-weight: bold;
+  text-align: right;
+}
+
+.menu-body span.menu-item-description {
+  font-size: 0.85em;
+  color: rgba(70, 69, 69,0.85);
+}
+
+.menu-bottom-text {
+  text-align: center;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 800px) {
+  div.menu-body {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 50vw;
+    min-width: 250px;
+    margin: 0 auto;
+  }
+}

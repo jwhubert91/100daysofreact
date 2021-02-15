@@ -1,0 +1,21 @@
+div.image-collage-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+div.image-collage-container > img {
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  div.image-collage-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    overflow: hidden;
+  }
+}
