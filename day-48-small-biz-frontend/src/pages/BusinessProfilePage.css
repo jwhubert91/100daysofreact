@@ -1,0 +1,59 @@
+.business-profile-top {
+  width: 100%;
+  height: 100vh;
+}
+
+.business-profile-image-container {
+  height: 33vh;
+  width: 100%;
+  margin: 0 auto;
+}
+
+img.biz-profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.business-profile-info {
+  width: 100%;
+}
+
+.business-profile-address {
+  font-size: 0.9em;
+}
+
+.business-profile-contact-text {
+  color: black;
+}
+
+.business-profile-description {
+  font-size: 0.8em;
+  margin-top: 10px;
+}
+
+.delivery-methods-header {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.delivery-methods-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+a.delivery-method-link {
+  color: white;
+  background-color: gray;
+  padding: 3px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0 10px 0 0;
+  border: 1px solid black;
+}
+
+a.delivery-method-link:hover {
+  background-color: darkgray;
+}
