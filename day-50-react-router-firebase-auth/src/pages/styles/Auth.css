@@ -1,0 +1,49 @@
+div.auth-form-container {
+  margin: 30px auto 0 auto;
+  padding: 20px;
+  width: 50%;
+  max-width: 500px;
+  min-width: 350px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color: rgba(255, 235, 205,0.4);
+}
+
+div.auth-form-row {
+  margin-top: 10px;
+}
+
+div.auth-form-row > label {
+  font-size: 0.9em;
+}
+
+input.auth-text-input {
+  width: 95%;
+  margin: 3px auto;
+  padding: 8px;
+  font-size: 1em;
+}
+
+button.auth-form-submit {
+  background: green;
+  color: white;
+  width: 99%;
+  text-align: center;
+  font-size: 1.3em;
+  padding: 7px 0;
+  border-radius: 5px;
+  border: none;
+  border: 2px solid white;
+  margin-top: 5px;
+}
+
+button.auth-form-submit:hover {
+  cursor: pointer;
+  border: 2px solid gainsboro;
+  background-color: rgba(0,128,0,0.9);
+}
+
+p.auth-alternate-prompt {
+  text-align: center;
+  font-size: 0.85em;
+}

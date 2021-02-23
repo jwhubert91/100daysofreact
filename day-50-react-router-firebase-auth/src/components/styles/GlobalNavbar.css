@@ -1,0 +1,21 @@
+nav.global-navbar-container {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  font-size: 2em;
+  font-weight: bold;
+  position: relative;
+}
+
+span.navbar-auth-prompt {
+  font-size: 18px;
+  right: 15px;
+  position: absolute;
+}
+
+navbar-auth-prompt:hover {
+  cursor: pointer;
+}

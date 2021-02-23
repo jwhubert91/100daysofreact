@@ -1,0 +1,8 @@
+div.toast-alert-container {
+  width: 60%;
+  min-width: 350px;
+  margin-top: 10px;
+  padding: 10px 0;
+  color: red;
+  border-radius: 10px;
+}
