@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+.app__posts {
+  padding: 20px;
+  display: inline-block;
+}
+
+div.app__header {
+  background-color: white;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+span.app__headerEmoji {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+span.app__headerEmoji > a {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
