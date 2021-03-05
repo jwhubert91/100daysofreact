@@ -1,0 +1,14 @@
+.post {
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.post__username {
+  padding: 10px;
+}
+
+.post__text {
+  padding: 10px;
+}

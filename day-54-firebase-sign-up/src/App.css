@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background-color: lightgoldenrodyellow;
+  min-height: 100vh;
+}
+
+div.app__header {
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  position: relative;
+}
+
+.app__headerSignUp {
+  clear: both;
+  background: none;
+  border: none;
+  font-size: 1.2em; 
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.app__newPostContainer {
+  margin: 10px auto;
+  width: 50%;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.app_newPostTextInput {
+  width: 100%;
+  height: 70px;
+}
+
+.app__newPostTextSubmit {
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.app__allPostsContainer {
+  width: 50%;
+  min-width: 400px;
+  margin: 10px auto;
+}
+
+.app__modalContainer {
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: lightgoldenrodyellow;
+}
+
+.app__modalHeaderButton {
+  background-color: black;
+  padding: 10px 15px;
+  font-size: 1.2em;
+  color: white;
+  font-weight: bold;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  float: right;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.app__modalHeaderButton:hover {
+  background-color: lightgoldenrodyellow;
+  color: black;
+}
+
+.app__modalBox {
+  clear: both;
+  margin: 20% auto 0 auto;
+  padding: 20px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.app__modalBoxPrompt {
+  text-align: center;
+}
+
+.app__modalBoxInputContainer {
+  margin-top: 10px;
+}
+
+.app__modalBoxInputContainer > label {
+  font-size: 0.8em;
+}
+
+.app__modalBoxInput {
+  width: 99%;
+  padding: 8px 0px;
+  font-size: 1.1em;
+  background-color: rgba(260,260,260,0.05);
+  border: 1px solid lightgray;
+  color: white;
+}
+
+.app__modalBoxSubmit {
+  font-size: 1.5em;
+  width: 100%;
+  padding: 5px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.app__modalBoxAltPrompt {
+  text-align: center;
+}
