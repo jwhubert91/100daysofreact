@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  background: rgb(40, 31, 53);
+  background: linear-gradient(to right, rgb(40, 31, 53), rgb(61, 46, 83));
+
+  color: #e40017;
+  color: #e36bae;
+  color: #fb743e;
+  color: rgb(235, 235, 235);
+
+  font-family: "Architects Daughter", cursive;
+}
+
+h1 {
+  margin: 1em 0 0 0;
+  font-size: 3rem;
+}
+
+h2 {
+  margin-bottom: 2em;
+}
+
+.radio {
+  max-width: 60em;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+  font-size: 1.2rem;
+}
+
+.filters .selected {
+  background: linear-gradient(to bottom right, #e36bae, #fb743e);
+}
+
+.filters span {
+  margin: 0 0.25em;
+  border: 1px solid #e36bae;
+  border-radius: 10px;
+  padding: 0.25em 0.75em;
+}
+
+.filters span:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom right, #e36bae, #fb743e);
+}
+
+.stations {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+}
+
+.station {
+  font-size: 1.4rem;
+  border: 1px solid rgb(76, 62, 95);
+  margin: 0.25em;
+  border-radius: 10px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.station:hover {
+  border-color: #e36bae;
+}
+
+.stationName {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+  width: 100%;
+  align-items: center;
+  justify-content: start;
+}
+
+.name {
+  width: 100%;
+  text-align: center;
+}
+
+.stationName img {
+  display: block;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  border: 2px solid rgb(76, 62, 95);
+  margin: 0 0.25em;
+}
+
+audio {
+  width: 100%;
+}
+
+.rhap_container.player {
+  background-color: rgb(76, 62, 95);
+  display: flex;
+  justify-items: center;
+  padding: 0.25em 0.75em;
+  border-radius: 10px;
+}
+
+.rhap_stacked .rhap_controls-section {
+  margin-top: 0 !important;
+}
+
+.rhap_controls-section .rhap_volume-controls {
+  justify-content: center;
+}
+
+.rhap_controls-section .rhap_main-controls button[aria-label="Play"] svg path {
+  fill: rgb(235, 235, 235) !important;
+}
+
+.rhap_controls-section .rhap_main-controls button[aria-label="Pause"] svg path {
+  fill: #e36bae !important;
+}
