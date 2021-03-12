@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(138,84,165);
+  background: linear-gradient(138deg, rgba(138,84,165,1) 0%, rgba(49,121,182,1) 50%, rgba(233,63,54,1) 100%);
+  text-align: center;
+}
+
+.app__calendar {
+  margin: 20vh auto;
+}
