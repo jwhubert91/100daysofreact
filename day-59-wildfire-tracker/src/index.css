@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.map {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.location-icon {
+  font-size: 2rem;
+  color: red;
+}
+
+.loader-spinner {
+  margin: 25% auto;
+}
+
+.location-info {
+  text-align: left;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 300px;
+  min-height: 200px;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 10px;
+  font-size: 18px;
+  color: ghostwhite;
+}
+
+.location-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.location-info li {
+  padding: 5px 0;
+}
+
+.header {
+  background-color: black;
+  color: snow;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header p {
+  margin: 0;
+  padding-bottom: 5px;
+  font-size: 0.8rem;
+}
+
+.header p a {
+  color: snow;
+}
+
+.header-data {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+}
