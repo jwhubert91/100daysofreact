@@ -1,0 +1,101 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+/* Bob Ziroll styles */
+html, body {
+  background: black;
+  color: #00b800;
+  margin:0;
+  padding: 0;
+  padding-top: 10px;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+
+.secondary-color {
+  color: #58c3ee;
+}
+
+.tertiary-color {
+  color: #ED793C;
+}
+
+body {
+  font-weight: 400;
+}
+
+.App {
+  width: 50%;
+  max-width: 1200px;
+  min-width: 500px;
+  margin: 0 auto;
+}
+
+main {
+  margin-top: 50px;
+}
+
+button {
+  font-family: 'Press Start 2P', cursive;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background: #a80020;
+  background: #00b800;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+h1, h3, h5 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 15px;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 8px;
+}
+
+h5 {
+  font-size: 12px;
+  margin: 4px;
+}
+
+textarea {
+  font-family: 'Press Start 2P', cursive;
+  border: 3px solid black;
+  width: 90%;
+  margin: 0 auto;
+  outline: none;
+  height: 200px;
+  background: #00b800;
+  padding: 10px;
+}
+
+textarea:disabled {
+  background-color: #a5a2a2;
+}
+
