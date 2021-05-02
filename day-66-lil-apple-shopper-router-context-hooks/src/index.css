@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* app */
+div.app {
+  color: black;
+  min-height: 100vh;
+  position: relative;
+}
+
+main.app__container {
+  min-width: 450px;
+  max-width: 1000px;
+  width: 66%;
+  margin: 0 auto;
+  height: 100%;
+  padding: 5px;
+}
+
+/* navbar */
+nav.navbar {
+  color: white;
+  background-color: blueviolet;
+  width: 100%;
+  height: 60px;
+}
+
+nav.navbar .navbar__flexContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 15px;
+}
+
+.navbar__flexContainer > h1,a {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+}
+
+/* inner container globals */
+div.page__innerContainer {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+/* product card */
+div.productCard__container {
+  width: 96%;
+  margin: 2% 2%;
+  border: 1px solid gray;
+  padding: 10px 10px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 65% 30%;
+  grid-column-gap: 5%;
+  cursor: pointer;
+}
+
+div.productCard__imageContainer {
+  display: flex;
+  align-items: center;
+}
+
+div.productCard__imageContainer > img {
+  width: 100%;
+  height: auto;
+}
+
+/* product detail page */
+.productDetail__image {
+  width: 100%;
+  height: auto;
+}
+
+.productDetail__addToCartButton {
+  background-color: black;
+  color: whitesmoke;
+  padding: 8px 50px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.productDetail__cartWarning {
+  font-size: small;
+  color: red;
+  font-style: italic;
+}
+
+/* footer */
+footer {
+  height: 30px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .footer__link {
+  color: blueviolet;
+}
