@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+}
+
+header > img {
+  height: 90px;
+  width: auto;
+}
+
+header > div {
+  margin-left: 20px;
+}
+
+header h1, h2, h3 {
+  margin: 0px;
+}
+
+main {
+  width: 66%;
+  max-width: 1200px;
+  min-width: 500px;
+  margin: 0 auto;
+}
+
+main > div.app__mainButtonContainer {
+  width: 100%;
+  text-align: center;
+}
+
+div.app__mainButtonContainer > button {
+  color: ghostwhite;
+  background-color: black;
+  margin: 10px;
+  padding: 5px 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+main > button {
+  text-align: center;
+}
+
+.userCard {
+  margin: 5px;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.userCard > img {
+  height: 90px;
+}
+
+.userCard > h2 {
+  margin-left: 10px;
+}
